@@ -37,61 +37,69 @@
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <a href="/">
-          <img src="images/logo.png" class="logo d-none d-md-block" />
-          <img src="images/logo-small.jpg" class="logo d-block d-md-none" />
+        <a href="/" title="Homepage">
+          <img
+            src="images/logo.png"
+            class="logo d-none d-md-block"
+            alt="Zara Logo"
+          />
+          <img
+            src="images/logo-small.jpg"
+            class="logo d-block d-md-none"
+            alt="Zara Logo"
+          />
         </a>
         <ul>
           <li class="active">
-            <a href="/">Home</a>
+            <a href="/" title="Homepage">Home</a>
           </li>
           <li>
-            <a href="/about.html">About</a>
+            <a href="/about.html" title="About Zara">About</a>
           </li>
           <li>
-            <a href="/work.html">Work</a>
+            <a href="/work.html" title=" Zara's work">Work</a>
           </li>
           <li>
-            <a href="/contact.html">Contact</a>
+            <a href="/contact.html" title="Contact Zara">Contact</a>
           </li>
         </ul>
       </nav>
     </div>
     <div class="hero">
       <p>👋 Hi I am</p>
-      <h1 class="text-center">Zara</h1>
-      <h3 class="text-center">Front-end developer, based in USA</h3>
-      <div class="navigation-links mb-3">
-        <a
-          href="/about.html#contact"
-          class="btn btn-branding"
-          title="Contact Zara"
+      <h1>Zara</h1>
+      <h2 class="mb-5">Front-end developer, based in USA</h2>
+      <div>
+        <a href="/contact.html" class="btn btn-branding" title="Contact Zara"
           >Contact me</a
         >
       </div>
     </div>
-    <p class="text-center m-5">
-      Featured Project which my best projects be choice to show
-    </p>
+    <p class="text-center m-5">Check out some of my featured projects below</p>
     <div class="container">
       <div class="row mb-5">
         <div class="col d-none d-lg-block">
           <img
             src="/images/yogurt.png"
-            alt="Yoga project "
+            alt="Yogurt project preview"
             class="img-fluid rounded"
           />
         </div>
         <div class="col">
           <div class="project-desciption">
-            <h2 class="mb-5">Yogurt Project</h2>
+            <h2 class="mb-5">Yogurt Landing Page</h2>
             <p class="mb-5 text-muted">
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia, there live the blind texts. Separated
-              they live in Bookmarksgrove right at the coast of the Semantics, a
-              large language ocean. A small river named Duden flows by
+              I entered the world of front-end development by gaining some
+              knowledge in HTML, CSS, and JavaScript. I used my knowledge of
+              these languages, along with my new skills in VS Code, to build a
+              landing page about Yogurt. The page utilizes JavaScript functions
+              to create user interaction.
             </p>
-            <a href="#" class="btn btn-branding-outline" title="Yoga project">
+            <a
+              href="/work.html"
+              class="btn btn-branding-outline"
+              title="Yoga project"
+            >
               Learn more
             </a>
           </div>
@@ -102,13 +110,15 @@
           <div class="project-desciption">
             <h2 class="mb-5">Weather app</h2>
             <p class="mb-5 text-muted">
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia, there live the blind texts. Separated
-              they live in Bookmarksgrove right at the coast of the Semantics, a
-              large language ocean. A small river named Duden flows by
+              I built a Vanilla JavaScript weather app in SheCodes Plus, an
+              advanced 8-week JavaScript coding workshop. Building upon my
+              previously-gained knowledge, I also became skilled in Bootstrap,
+              API’s, real-life development workflow, hosting, and advanced
+              JavaScript. I combined all of these skills to create a
+              fully-functioning weather app.
             </p>
             <a
-              href="#"
+              href="/work.html"
               class="btn btn-branding-outline"
               title="Weather project"
             >
@@ -120,7 +130,7 @@
           <img
             src="/images/weather.png"
             class="img-fluid rounded"
-            alt="Weather project"
+            alt="Weather project preview"
           />
         </div>
       </div>
@@ -129,20 +139,20 @@
           <img
             src="/images/dictionary.png"
             class="img-fluid rounded"
-            alt="Yogurt project"
+            alt="Dictionary app preview"
           />
         </div>
         <div class="col">
           <div class="project-desciption">
             <h2 class="mb-5">Dictionary App</h2>
             <p class="mb-5 text-muted">
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia, there live the blind texts. Separated
-              they live in Bookmarksgrove right at the coast of the Semantics, a
-              large language ocean. A small river named Duden flows by
+              I immersed myself in React development in SheCodes React. I used
+              my knowledge of this highly-demanded framework to build a working
+              dictionary app incorporating coding best practices, along with the
+              most popular tools and technologies.
             </p>
             <a
-              href="#"
+              href="/work.html"
               class="btn btn-branding-outline"
               title="Weather project"
             >
@@ -158,25 +168,52 @@
             <p class="text-muted">Let's work together</p>
           </div>
           <div>
-            <a href="" class="btn btn-branding mt-3"> Contact me </a>
+            <a
+              href="/contact.html"
+              class="btn btn-branding mt-3"
+              title="Contact Zara"
+            >
+              Contact me
+            </a>
           </div>
         </div>
         <div class="d-flex justify-content-center mb-5">
-          <a href="mailto:zara@gmail.com" class="email-link">
+          <a href="mailto:zara@gmail.com" class="email-link" title="Email Zara">
             zara@gmail.com
           </a>
         </div>
         <div class="social-links d-flex justify-content-center">
-          <a href="https://www.github.com/zarasd3456" target="_blank">
+          <a
+            href="https://www.github.com/zarasd3456"
+            target="_blank"
+            title="GitHub Profile"
+          >
             <i class="fab fa-github" aria-hidden="true"></i>
           </a>
-          <a href="https://www.instagram.com/zara1.codes" target="_blank">
+          <a
+            href="https://www.instagram.com/zara1.codes"
+            target="_blank"
+            title="instragram Profile"
+          >
             <i class="fab fa-instagram" aria-hidden="true"></i>
           </a>
-          <a href="https://www.twitter.com/zara123" target="_blank">
+          <a
+            href="https://www.twitter.com/zara123"
+            target="_blank"
+            title="Twitter Profile"
+          >
             <i class="fab fa-twitter" aria-hidden="true"></i>
           </a>
         </div>
+        <p class="text-center mt-5">
+          ✌️ This website was coded by Zara, and is
+          <a
+            href="https://github.com/z-scientist-ai/portfolio-project-aboutpg"
+            target="_blank"
+          >
+            open-sourced
+          </a>
+        </p>
       </footer>
     </div>
   </body>

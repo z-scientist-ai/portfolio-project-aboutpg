@@ -8,7 +8,7 @@
       name="description"
       content="Zara is a front-end developer based in USA, check out her projects and contact her for job inquiries"
     />
-    <title>contact me</title>
+    <title>contact Zara</title>
 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
@@ -35,6 +35,36 @@
     <link rel="stylesheet" href="/style/portfolio.css" />
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img
+            src="images/logo.png"
+            class="logo d-none d-md-block"
+            alt="Zara Logo"
+          />
+          <img
+            src="images/logo-small.jpg"
+            class="logo d-block d-md-none"
+            alt="Zara Logo"
+          />
+        </a>
+        <ul>
+          <li>
+            <a href="/" title="Homepage">Home</a>
+          </li>
+          <li>
+            <a href="/about.html" title="About Zara">About</a>
+          </li>
+          <li>
+            <a href="/work.html" title=" Zara's work">Work</a>
+          </li>
+          <li class="active">
+            <a href="/contact.html" title="Contact Zara">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="content">
         <h1 class="mb-5">Let's get in touch!</h1>
@@ -54,5 +84,59 @@
         </p>
       </div>
     </div>
+    <footer class="container">
+      <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+        <div>
+          <h4>Work Inquiry</h4>
+          <p class="text-muted">Let's work together</p>
+        </div>
+        <div>
+          <a
+            href="/contact.html"
+            class="btn btn-branding mt-3"
+            title="Contact Zara"
+          >
+            Contact me
+          </a>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center mb-5">
+        <a href="mailto:zara@gmail.com" class="email-link" title="Email Zara">
+          zara@gmail.com
+        </a>
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a
+          href="https://www.github.com/zarasd3456"
+          target="_blank"
+          title="GitHub Profile"
+        >
+          <i class="fab fa-github" aria-hidden="true"></i>
+        </a>
+        <a
+          href="https://www.instagram.com/zara1.codes"
+          target="_blank"
+          title="instragram Profile"
+        >
+          <i class="fab fa-instagram" aria-hidden="true"></i>
+        </a>
+        <a
+          href="https://www.twitter.com/zara123"
+          target="_blank"
+          title="Twitter Profile"
+        >
+          <i class="fab fa-twitter" aria-hidden="true"></i>
+        </a>
+      </div>
+      <p class="text-center mt-5">
+        ✌️ This website was coded by Zara, and is
+        <a
+          href="https://github.com/z-scientist-ai/portfolio-project-aboutpg"
+          target="_blank"
+        >
+          open-sourced
+        </a>
+      </p>
+    </footer>
   </body>
 </html>

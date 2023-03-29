@@ -5,10 +5,10 @@
       <meta charset="UTF-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <meta
+      <!-- <meta
         name="description"
         content="Zara is a front-end developer based in USA, check out her projects and contact her for job inquiries"
-      />
+      /> -->
       <title>My works</title>
 
       <link
@@ -36,24 +36,66 @@
       <link rel="stylesheet" href="/style/portfolio.css" />
     </head>
     <body>
+      <div class="container">
+        <nav class="d-flex justify-content-between">
+          <a href="/" title="Homepage">
+            <img
+              src="images/logo.png"
+              class="logo d-none d-md-block"
+              alt="Zara Logo"
+            />
+            <img
+              src="images/logo-small.jpg"
+              class="logo d-block d-md-none"
+              alt="Zara Logo"
+            />
+          </a>
+          <ul>
+            <li>
+              <a href="/" title="Homepage">Home</a>
+            </li>
+            <li>
+              <a href="/about.html" title="About Zara">About</a>
+            </li>
+            <li class="active">
+              <a href="/work.html" title=" Zara's work">Work</a>
+            </li>
+            <li>
+              <a href="/contact.html" title="Contact Zara">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
       <div class="content-container container">
         <div class="content">
           <h1 class="mb-5">Take a look at what I've been working on!</h1>
           <div class="row">
             <div class="col-md-6 mb-4">
-              <img src="images/yogurt.png" class="img-fluid mb-3 rounded" />
+              <img
+                src="images/yogurt.png"
+                class="img-fluid mb-3 rounded"
+                alt="Yogurt project preview"
+              />
               <h3 class="text-center m-0">Yogurt Project</h3>
               <p class="text-center text-muted">Built with HTML and CSS</p>
             </div>
             <div class="col-md-6 mb-4">
-              <img src="images/weather.png" class="img-fluid mb-3 rounded" />
+              <img
+                src="images/weather.png"
+                class="img-fluid mb-3 rounded"
+                alt="Weather project preview"
+              />
               <h3 class="text-center m-0">Weather Project</h3>
               <p class="text-center text-muted">
                 Built with HTML, CSS and JavaScript
               </p>
             </div>
             <div class="col-md-6 mb-4">
-              <img src="images/dictionary.png" class="img-fluid mb-3 rounded" />
+              <img
+                src="images/dictionary.png"
+                class="img-fluid mb-3 rounded"
+                alt="Disctionary project preview"
+              />
               <h3 class="text-center m-0">Dictionary App</h3>
               <p class="text-center text-muted">
                 Built with HTML, CSS with React
@@ -63,6 +105,7 @@
               <img
                 src="images/translation.png"
                 class="img-fluid mb-3 rounded"
+                alt="Translation project preview"
               />
               <h3 class="text-center m-0">Translation App</h3>
               <p class="text-center text-muted">
@@ -72,6 +115,60 @@
           </div>
         </div>
       </div>
+      <footer class="container">
+        <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+          <div>
+            <h4>Work Inquiry</h4>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <a
+              href="/contact.html"
+              class="btn btn-branding mt-3"
+              title="Contact Zara"
+            >
+              Contact me
+            </a>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+          <a href="mailto:zara@gmail.com" class="email-link" title="Email Zara">
+            zara@gmail.com
+          </a>
+        </div>
+        <div class="social-links d-flex justify-content-center">
+          <a
+            href="https://www.github.com/zarasd3456"
+            target="_blank"
+            title="GitHub Profile"
+          >
+            <i class="fab fa-github" aria-hidden="true"></i>
+          </a>
+          <a
+            href="https://www.instagram.com/zara1.codes"
+            target="_blank"
+            title="instragram Profile"
+          >
+            <i class="fab fa-instagram" aria-hidden="true"></i>
+          </a>
+          <a
+            href="https://www.twitter.com/zara123"
+            target="_blank"
+            title="Twitter Profile"
+          >
+            <i class="fab fa-twitter" aria-hidden="true"></i>
+          </a>
+        </div>
+        <p class="text-center mt-5">
+          ✌️ This website was coded by Zara, and is
+          <a
+            href="https://github.com/z-scientist-ai/portfolio-project-aboutpg"
+            target="_blank"
+          >
+            open-sourced
+          </a>
+        </p>
+      </footer>
     </body>
   </html>
 </html>

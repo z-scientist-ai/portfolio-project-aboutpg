@@ -36,6 +36,36 @@
   </head>
 
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img
+            src="images/logo.png"
+            class="logo d-none d-md-block"
+            alt="Zara Logo"
+          />
+          <img
+            src="images/logo-small.jpg"
+            class="logo d-block d-md-none"
+            alt="Zara Logo"
+          />
+        </a>
+        <ul>
+          <li>
+            <a href="/" title="Homepage">Home</a>
+          </li>
+          <li class="active">
+            <a href="/about.html" title="About Zara">About</a>
+          </li>
+          <li>
+            <a href="/work.html" title=" Zara's work">Work</a>
+          </li>
+          <li>
+            <a href="/contact.html" title="Contact Zara">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="content content-container">
       <div class="row">
         <div class="col-lg-6">
@@ -43,18 +73,71 @@
             <h1 class="mb-4">Hi I am Zara</h1>
             <h2 class="mb4">Frontend Developer, based in USA</h2>
             <p class="mb-5">
-              For anyone who wants to start learning code, this workshop is very
-              interesting. You will be challenged with different exercises, and
-              everything is well explained, homework and deadlines are good for
-              keep focus
+              I’m currently seeking new opportunities in front-end development.
+              I’m open to work remotely and have flexible hours. I’m highly
+              skilled in JavaScript and React.
             </p>
-            <a href="" class="btn btn-branding"> See my projects </a>
+            <a href="/work.html" class="btn btn-branding"> See my projects </a>
           </div>
         </div>
         <div class="col-lg-6">
-          <img src="images/zara.png" alt="" class="img-fluid" />
+          <img src="images/zara.png" alt="zara" class="img-fluid" />
         </div>
       </div>
     </div>
+    <footer class="container">
+      <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+        <div>
+          <h4>Work Inquiry</h4>
+          <p class="text-muted">Let's work together</p>
+        </div>
+        <div>
+          <a
+            href="/contact.html"
+            class="btn btn-branding mt-3"
+            title="Contact Zara"
+          >
+            Contact me
+          </a>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center mb-5">
+        <a href="mailto:zara@gmail.com" class="email-link" title="Email Zara">
+          zara@gmail.com
+        </a>
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a
+          href="https://www.github.com/zarasd3456"
+          target="_blank"
+          title="GitHub Profile"
+        >
+          <i class="fab fa-github" aria-hidden="true"></i>
+        </a>
+        <a
+          href="https://www.instagram.com/zara1.codes"
+          target="_blank"
+          title="instragram Profile"
+        >
+          <i class="fab fa-instagram" aria-hidden="true"></i>
+        </a>
+        <a
+          href="https://www.twitter.com/zara123"
+          target="_blank"
+          title="Twitter Profile"
+        >
+          <i class="fab fa-twitter" aria-hidden="true"></i>
+        </a>
+      </div>
+      <p class="text-center mt-5">
+        ✌️ This website was coded by Zara, and is
+        <a
+          href="https://github.com/z-scientist-ai/portfolio-project-aboutpg"
+          target="_blank"
+        >
+          open-sourced
+        </a>
+      </p>
+    </footer>
   </body>
 </html>
